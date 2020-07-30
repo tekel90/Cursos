@@ -77,5 +77,60 @@ switch(mes){
 * do..while
 **********************************************/
 
-// sentencia for
-console.log();
+/* sentencia for
+for (var i = 0; i <= 10; i++){
+    console.log(i);
+}*/
+
+/* sentencia while
+var i = 10;
+while (i >=1){
+    console.log(i);
+    i--;
+}*/
+
+/*sentencia do while
+var i = 12;
+do{
+    console.log(i);
+    i++;
+}while (i <= 10)*/
+
+/************
+ * Ejercicio de sentencias
+ */
+
+ /*******
+  * Hay 2 alumnos Pablo y Maria
+  * Pablo tiene las siguientes notas: 14, 8, 16.
+  * Maria tiene las siguientes notas: 12, 18, 10.
+  * 
+  * Caluclar el promedio de cada alumno, ademas de indicar quien tiene el promedio
+  * superior, e indicar si el alumno esta aprobado, para ello su promedio
+  * debe ser superiror a 13
+  */
+
+  var promedioPablo = (14 + 8 + 16) / 3;
+  var promedioMaria = (12 + 18 + 10) / 3;
+
+  if (promedioPablo == promedioMaria){
+    console.log ("Tienen el mismo promedio")
+  }else if (promedioPablo > promedioMaria){
+      console.log("El promedio de Pablo es superior al de maria")
+  }else{
+    console.log("El promedio de Maria es superior al de Pablo")
+  }
+
+  console.log('Promedio de pablo ' + promedioPablo)
+  console.log('Promedio de maria ' + promedioMaria)
+  if (promedioPablo > 13){
+      console.log("Pablo esta aprobado")
+  }else{
+    console.log("Pablo esta desaprobado")
+  }
+
+  if (promedioMaria > 13){
+    console.log("Maria esta aprobada")
+}else{
+  console.log("Maria esta desaprobada")
+}
