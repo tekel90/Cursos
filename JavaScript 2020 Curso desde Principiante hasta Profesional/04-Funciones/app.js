@@ -79,4 +79,25 @@ console.log (prueba(nombre))
  }
  console.log (sumar(10,4)); */
 
- 
+//plantillas de cadenas (template String ``)
+/* var nombre = 'Pablo';
+console.log(`el nombre es:  ${nombre}`); */
+
+
+/* ejercicio 4
+implementar una funcion que nos permita evaluar el
+porcentaje de respuestas positivas y negativas de un examnen
+la funcion debe recibir el nombre y la cantidad de respuestas positivas y negativas
+la funcion debe calcular el procentaje que representa cada respuesta, en una base de 100 pretuntas.
+de las respuestas positivas se define el score de la persona
+A(> 90%), B( 70% - 80%), C( 45% - 69%), D(< 45%) 
+*/
+
+var calcularScore = function(nombre, pos, neg){
+    var porPos = (pos / 100) * 100;
+    var porNeg = (neg / 100) * 100;
+
+    if(porPros > 90){
+        
+    }
+}
